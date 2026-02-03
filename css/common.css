@@ -1,0 +1,46 @@
+/* ê¸°ë³¸ì •ë ¬ */
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+
+/* í°íŠ¸ì»¬ëŸ¬ - font-color */
+.c_r{color: #F12F22 !important;}
+.c_b{color: #0076c8 !important;}
+.c_w{color: #fff !important;}
+.c_g{color: #aaa !important;}
+.c_g2{color: #666 !important;}
+.c_dg{color: #808080 !important;}
+.c_dg2{color: #444 !important;}
+.c_y{color: #ffff37 !important;}
+.c_co{color: #e74c3c !important;}
+.c_grn{color: #30b478 !important;}
+.c_blk{color: #000 !important;}
+
+/* ë¼ì¸ - literary circles line*/
+.lc_l {border-bottom:1px solid #e6e6e6 !important;}
+
+/* í•˜ì´ë¼ì´íŠ¸ - highlight */
+.h_r{background-color: #F12F22 !important;}
+.h_sb{background-color: #85ddff !important;}
+.h_y{background-color: #FFF599 !important;}
+.h_yd{background-color: #ffef4c !important;}
+.h_blk{background-color: #000 !important;}
+
+
+/* í°íŠ¸ì‚¬ì´ì¦ˆ - font-size */
+.f_size_s{font-size: 15px !important;}
+.f_size_r{font-size: 22px !important;}
+.f_size_b{font-size: 26px !important;}
+.f_size_l{font-size: 27px !important;}
+.f_size_xl{font-size: 33px !important;}
+
+/* ê°€ë¡œ ê°’ - width */
+.width_40{width: 40% !important;}
+.width_60{width: 60% !important;}
+.width_80{width: 80% !important;}
+
+
+/* ë¦¬ìŠ¤íŠ¸ */
+.list_dot{padding-left: 30px; position: relative;}
+.list_dot::before{content: ''; width: 9px; height: 9px; border-radius: 50%; background: #000; position: absolute; left: 10px; top: 48%; transform: translateY(-50%);}
+.list_square{padding-left: 30px; position: relative;}
+.list_square::before{content: ''; width: 9px; height: 9px; background: #000; position: absolute; left: 10px; top: 48%; transform: translateY(-50%);}
